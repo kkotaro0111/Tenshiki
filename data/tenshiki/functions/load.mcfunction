@@ -1,2 +1,4 @@
 scoreboard objectives add tenshiki dummy
-scoreboard objectives setdisplay sidebar tenshiki
+
+# デバッグ用
+# scoreboard objectives setdisplay sidebar tenshiki

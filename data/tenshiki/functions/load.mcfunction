@@ -1,0 +1,2 @@
+scoreboard objectives add tenshiki dummy
+scoreboard objectives setdisplay sidebar tenshiki

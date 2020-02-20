@@ -4,4 +4,4 @@ scoreboard objectives add tenshiki_even dummy
 
 # デバッグ用
 # scoreboard objectives setdisplay sidebar tenshiki
-scoreboard objectives setdisplay sidebar tenshiki_even
+# scoreboard objectives setdisplay sidebar tenshiki_even

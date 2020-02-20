@@ -47,4 +47,7 @@ execute if score @p tenshiki matches 46 run title @s actionbar [  {"text": "||||
 execute if score @p tenshiki matches 47 run title @s actionbar [  {"text": "||||||||||||||||||||", "color": "dark_green"},{"text": "|||||||||||||||", "color": "green"},{"text": "||||||||||", "color": "yellow"},{"text": "||", "color": "red"},{"text": "|||", "color": "gray"}]
 execute if score @p tenshiki matches 48 run title @s actionbar [  {"text": "||||||||||||||||||||", "color": "dark_green"},{"text": "|||||||||||||||", "color": "green"},{"text": "||||||||||", "color": "yellow"},{"text": "|||", "color": "red"},{"text": "||", "color": "gray"}]
 execute if score @p tenshiki matches 49 run title @s actionbar [  {"text": "||||||||||||||||||||", "color": "dark_green"},{"text": "|||||||||||||||", "color": "green"},{"text": "||||||||||", "color": "yellow"},{"text": "||||", "color": "red"},{"text": "|", "color": "gray"}]
-execute if score @p tenshiki matches 50.. run title @s actionbar [{"text": "||||||||||||||||||||", "color": "dark_green"},{"text": "|||||||||||||||", "color": "green"},{"text": "||||||||||", "color": "yellow"},{"text": "|||||", "color": "red"}]
+
+# tenshiki_even （剰余値）の0/1で表示分け
+execute if score @s tenshiki matches 50.. if score @s tenshiki_even matches 0 run title @s actionbar [{"text": "||||||||||||||||||||", "color": "dark_green"},{"text": "|||||||||||||||", "color": "green"},{"text": "||||||||||", "color": "yellow"},{"text": "|||||", "color": "red"}]
+execute if score @s tenshiki matches 50.. if score @s tenshiki_even matches 1 run title @s actionbar [{"text": "||||||||||||||||||||||||||||||||||||||||||||||||||", "color": "white"}]
